@@ -39,7 +39,7 @@ public class DustMojo extends AbstractMojo {
     /**
      * List of files to include. Specified as fileset patterns which are relative to the source directory. Default value is: { "**\/*.html" }
      */
-    @Parameter( property = "includes", defaultValue = "**/*.html")
+    @Parameter( property = "includes")
     private String[] includes = new String[] { "**/*.html" };
 
     /**
